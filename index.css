@@ -1,0 +1,6 @@
+@import url(/blocks/header.css);
+@import url(./blocks/flexrow.css);
+
+div {
+  border: 1px solid red;
+}

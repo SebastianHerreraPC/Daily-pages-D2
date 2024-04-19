@@ -1,0 +1,15 @@
+.project {
+  background-position: center;
+  background-size: cover;
+}
+.project_beginner {
+  width: 636px;
+  height: 430px;
+}
+
+.project_music-album {
+  background-image: url(/images/albummusica.png);
+}
+.project_design-principles {
+  background-image: url(/images/diseñoidea.png);
+}
