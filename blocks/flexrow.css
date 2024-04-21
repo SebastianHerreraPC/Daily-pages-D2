@@ -1,6 +1,7 @@
 .flexrow {
   justify-content: space-around;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .project {
@@ -60,6 +61,7 @@
   justify-content: center;
   min-height: 75px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .project_vanilla {
   width: 306px;
