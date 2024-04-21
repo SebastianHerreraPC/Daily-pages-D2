@@ -69,9 +69,11 @@
 }
 
 .project_how-to-study {
+  order: 2;
   background-image: url(/images/libros.jpeg);
 }
 .project_across {
+  order: 1;
   background-image: url(/images/across.jpeg);
 }
 .project_around {

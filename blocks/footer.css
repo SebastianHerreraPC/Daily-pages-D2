@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  min-height: 95px;
+  border: 1px solid red;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__logo {
+  height: 25px;
+  width: 145px;
+  background-image: url(/images/zorro.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.copyrigths {
+  align-self: flex-end;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon {
+  width: 24px;
+}
