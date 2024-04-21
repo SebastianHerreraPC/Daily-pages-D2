@@ -10,10 +10,41 @@
     <header class="header">
       <a href="#" class="header__link"> Este es un enlace </a>
     </header>
+    <div class="header__menu">
+      <a href="#" class="menu__link">Primeros pasos en HTML y CSS</a>
+      <a href="#" class="menu__link">Librerías de JavaScript</a>
+      <a href="#" class="menu__link">Practicando en HTML, CSS y JavaScript</a>
+    </div>
     <main class="main">
-      <div class="flexrow">
+      <div class="flexrow flex-row_reversed">
         <div class="project project_beginner project_music-album"></div>
         <div class="project project_beginner project_design-principles"></div>
+      </div>
+      <div class="flexrow">
+        <div class="flexcolumn flex-column_reversed">
+          <div class="project project_libraries project_p5">
+            <video
+              src="/images/5608091-sd_426_240_24fps.mp4"
+              class="project-video"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <div class="flex-row flex-row_libraries-inner">
+            <div class="project project_libraries project_slider"></div>
+            <div class="project project_libraries project_reactive"></div>
+          </div>
+        </div>
+        <div class="project project_libraries project_procrastinate">
+          <video
+            class="project-video"
+            src="./images/855859-sd_640_360_30fps.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
       </div>
     </main>
   </body>
