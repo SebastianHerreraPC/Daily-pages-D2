@@ -58,4 +58,20 @@
 .header__menu {
   display: flex;
   justify-content: center;
+  min-height: 75px;
+  align-items: center;
+}
+.project_vanilla {
+  width: 306px;
+  height: 290px;
+}
+
+.project_how-to-study {
+  background-image: url(/images/libros.jpeg);
+}
+.project_across {
+  background-image: url(/images/across.jpeg);
+}
+.project_around {
+  background-image: url(/images/around.jpeg);
 }
