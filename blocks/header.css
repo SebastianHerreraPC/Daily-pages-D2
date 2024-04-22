@@ -1,8 +1,16 @@
 .header {
   display: flex;
-  border: solid red 1px;
+
   height: 95px;
 }
 .header__link {
   margin: auto;
+  text-decoration: none;
+  color: #10191e;
+}
+.menu-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #10191e;
+  margin-right: 20px;
 }
